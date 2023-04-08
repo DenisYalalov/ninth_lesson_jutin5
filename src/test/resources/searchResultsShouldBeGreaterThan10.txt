@@ -1,0 +1,67 @@
+0) TEST DATA: ["Selenide", "Allure"]
+1) TITLE: В поисковой выдаче  яндекса должно отображаться 10 результатов по вопросу TEST_DATA
+2)PRIORITY / SEVERITY - BLOCKER
+3*) PRECONDITION: Открыт браузер Chrome, открыта главная страница ya.ru
+
+4) STEPS
+- Ввести TEST_DATA
+--Если TEST_DATA == "Selenide" то ...
+--Если TEST_DATA == "Allure" то ... (не правильно)
+- Нажать кнопку найти
+
+5) EXPECTED RESULT
+- В поисковой выдаче  яндекса должно отображаться 10 результатов.
+
+
+
+1) TITLE: В поисковой выдаче  яндекса должно отображаться 10 результатов по вопросу TEST_DATA
+2)PRIORITY / SEVERITY - BLOCKER
+3*) PRECONDITION: Открыт браузер Chrome, открыта главная страница ya.ru
+
+4) STEPS
+- Ввести TEST_DATA
+- Нажать кнопку найти
+
+5) EXPECTED RESULT
+- В поисковой выдаче  яндекса должно отображаться 10 результатов.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) TITLE: Поиск по фотке должен находить похожие изображения
+2)PRIORITY / SEVERITY - BLOCKER
+
+4) STEPS
+- Открыт браузер Chrome
+- Открыть главная страница ya.ru
+- В поле поиска нажать на кнопку с фотооппаратом
+- etc
+
+
+*)Запрс с двумя параметрами
+0) TEST DATA: [
+        ["Selenide", "локаничные и стабильные UI тесты на Java"]
+        ["Allure framework", "Allure Framework - GitHub "]
+      ]
+1) TITLE: В первом результате выдачи для TEST_DATA [0] должен отображаться текст TEST_DATA [1]
+2)PRIORITY / SEVERITY - BLOCKER
+3*) PRECONDITION: Открыт браузер Chrome, открыта главная страница ya.ru
+
+4) STEPS
+- В поле поиска ввести TEST_DATA [0]
+- Нажать кнопку "Найти"
+
+5) EXPECTED RESULT
+- В поисковой выдаче  яндекса в первом результате отображается текст TEST_DATA [1]
